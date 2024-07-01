@@ -22,7 +22,7 @@ docker run  -d -P nginx -- will give map with container's port with hosts random
 
 docker cp source destination - copies file from source to destination
 docker cp source file container_id:/usr/local/nginx/html/index.html
-/usr/local/apache2/htdocs/html/index.html
+/usr/local/apache2/htdocs/index.html
 
 docker rm -f `docker ps -qa` - will remove all container at once
 docker rmi -rf `docker ps -qa` - will remove all images
